@@ -1,0 +1,20 @@
+#div1 {
+	color:red;
+}
+
+.div2 {
+	color:gold;
+}
+
+p {
+	color:green;
+}     
+		
+div p{
+	color:blue;
+}     
+		
+input[type="text"] {
+	background-color:yellow;
+}    
+		

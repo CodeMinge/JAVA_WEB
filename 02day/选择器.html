@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>选择器</title>
+		<style>
+			#div1{color:red;}  <!--id选择器-->
+		</style>
+		<style>
+			.div2{color:gold;} <!--类选择器-->
+		</style>
+		<style>
+			p{color:green;}     <!--元素选择器-->
+		</style>
+		<style>
+			div p{color:blue;}     <!--层级选择器-->
+		</style>
+		<style>
+			input[type="text"] {background-color:yellow;}     <!--属性选择器-->
+		</style>
+	</head>
+	<body>
+		<p>炸了</p>
+		<div id="div1">
+			哈哈 11
+		</div>
+		<div class="div2">
+			哈哈 22
+		</div>
+		<div>
+			<p>炸了 哈哈 33</p>
+		</div>
+		<font style="color:green">用户名：</font><input type="text" name="username"><br />
+	</body>
+</html>
